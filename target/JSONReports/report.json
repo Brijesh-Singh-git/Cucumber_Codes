@@ -1,0 +1,87 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-04T02:10:12.661Z",
+        "line": 4,
+        "name": "Check Login is successful with valid credentials",
+        "description": "",
+        "id": "feature-is-to-test-the-login-functionality;check-login-is-successful-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat Step_Definations.DemoSteps.user_is_on_the_Login_Page(DemoSteps.java:12)\r\n\tat ✽.user is on the Login Page(file:///G:/INFOSYS%20Lectures%20\u0026%20Codes/CUCUMBER%20CODES/Cucumber_Codes/src/test/resources/Features/DemoExample.feature:6)\r\n",
+              "duration": 12975200,
+              "status": "pending"
+            },
+            "line": 6,
+            "name": "user is on the Login Page",
+            "match": {
+              "location": "Step_Definations.DemoSteps.user_is_on_the_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4989800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user enters the username and password",
+            "match": {
+              "location": "Step_Definations.DemoSteps.user_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999200,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Clicks the login button",
+            "match": {
+              "location": "Step_Definations.DemoSteps.clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1999100,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the user is naviagted to the home page",
+            "match": {
+              "location": "Step_Definations.DemoSteps.the_user_is_naviagted_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "feature is to test the Login functionality",
+    "description": "",
+    "id": "feature-is-to-test-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/DemoExample.feature",
+    "tags": [
+      {
+        "name": "@smoketest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
